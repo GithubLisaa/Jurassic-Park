@@ -4,7 +4,8 @@ DINOSAURE
 [Lien des consignes](https://drive.google.com/file/d/1g8KIlVcBNlz_924NdNpjZObnCcWUdUnK/view?usp=drive_link)
 
 
- **DESCRIPTION**
+ **DESCRIPTION**  
+ 
 Le projet consiste à développer un simulateur de vie animale en C++ en mode console, où le joueur peut observer un écosystème virtuel peuplé de différentes espèces animales. Chaque espèce a ses propres caractéristiques et comportements. Le joueur a le choix entre simplement observer l’évolution des populations dans l’écosystème ou interagir activement avec les animaux, en influençant directement leur comportement et leur survie.  
 
 
