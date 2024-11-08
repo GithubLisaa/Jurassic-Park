@@ -7,24 +7,24 @@ DINOSAURE
   
 **Vous devez implémenter dans votre application :**
 
-  **Simulation Automatique :**
+  **Simulation Automatique :**  
 La simulation peut fonctionner sans l'intervention du joueur,
 où chaque espèce suit ses instincts naturels : recherche de
 nourriture, reproduction, fuite ou chasse, etc.
 
-  **Interaction Joueur :**
+  **Interaction Joueur :**  
 Le joueur peut influencer le déroulement de la simulation en:
  
  * Choisissant des animaux spécifiques et en les nourrissant.  
  * Favorisant la reproduction entre deux individus d'une même espèce.  
  * Favorisant la chasse d’une espèce précise par une autre espèce.
 
-  **Suivi de l'Écosystème :**
+  **Suivi de l'Écosystème :**  
 Affichage en temps réel des changements dans la population
 de chaque espèce, leur état de santé, et la dynamique des
 interactions (ex. prédation, reproduction).
 
-  **IMPORTANT**
+  **IMPORTANT**  
 Il n'y a pas de limite dans les ajouts de fonctionnalités, à vous de
 décider ce qui est pertinent. Il vaut mieux en faire moins mais
 bien et éviter les bugs.
