@@ -33,5 +33,15 @@ Il n'y a pas de limite dans les ajouts de fonctionnalités, à vous de décider 
 La qualité du code sera prise en compte, pensez à respecter rigoureusement la convention choisie par groupe.
 
 
+ **Features imposées**  
+ * Bouffer sinon crève
+ * tchitchi pour la décendance
+ * kaval keny kaval il y a les hendeks
+ * chasses
+
+
  **idées de features**  
  * humains VS dynoso => 1/5 de dompter le dino et booster les stats du dino sinon crève
+ * 1/100 qu'un dino soit triso et rush ses prédateurs en mode deus vult
+ * Arche 2.0 1/10000 qu'un déluge de petit dino spawn
+ * Cycle Jour/nuit
