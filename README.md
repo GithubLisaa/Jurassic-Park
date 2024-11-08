@@ -14,8 +14,9 @@ nourriture, reproduction, fuite ou chasse, etc.
 
   **Interaction Joueur :**
 Le joueur peut influencer le déroulement de la simulation en:
- ● Choisissant des animaux spécifiques et en les nourrissant.
- ● Favorisant la reproduction entre deux individus d'une même espèce.
+ 
+ ● Choisissant des animaux spécifiques et en les nourrissant.\n 
+ ● Favorisant la reproduction entre deux individus d'une même espèce.\n
  ● Favorisant la chasse d’une espèce précise par une autre espèce.
 
   **Suivi de l'Écosystème :**
