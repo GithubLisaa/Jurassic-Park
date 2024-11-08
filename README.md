@@ -1,4 +1,4 @@
 # Jurassic-Park
 DINOSAURE
 
-[Lien des consignes](https://drive.google.com/drive/folders/1hhw8wOUFxs1ObLP0ZQwZHSPRt48VJ2GM)
+[Lien des consignes](https://drive.google.com/file/d/1g8KIlVcBNlz_924NdNpjZObnCcWUdUnK/view?usp=drive_link)
