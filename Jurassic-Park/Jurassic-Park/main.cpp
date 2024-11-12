@@ -5,4 +5,5 @@ int main()
 {
 	Animal test(10, 10);
 	test.test();
+	std::cout << "test";
 }
