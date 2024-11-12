@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ad8b3b2b-c939-4266-8c7a-adc7c59f8dad}</ProjectGuid>
+    <ProjectGuid>{c9ca818e-5581-45cb-ba3e-e1f96d7645a2}</ProjectGuid>
     <RootNamespace>JurassicPark</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Jurassic-Park.cpp" />
+    <ClCompile Include="Jurassic Park.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
