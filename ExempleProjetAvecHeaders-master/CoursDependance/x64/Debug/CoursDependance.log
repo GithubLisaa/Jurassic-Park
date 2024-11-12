@@ -1,0 +1,10 @@
+﻿  archer.cpp
+  guerisseur.cpp
+  guerrier.cpp
+  jeu.cpp
+C:\Users\agodin\Downloads\ExempleProjetAvecHeaders-master\CoursDependance\jeu.cpp(17,15): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  mage.cpp
+  main.cpp
+  personnage.cpp
+  Génération de code en cours...
+  CoursDependance.vcxproj -> C:\Users\agodin\Downloads\ExempleProjetAvecHeaders-master\x64\Debug\CoursDependance.exe
