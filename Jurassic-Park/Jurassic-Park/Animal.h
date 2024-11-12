@@ -19,7 +19,7 @@ private:
 public:
     Animal(int hp, int faim) : grangou(faim), lavi(hp), x(gennbint(0, 20)), y(gennbint(0, 20)) {}
 
-    void test() { std::cout"test"; }
+    void test() { std::cout << x << " AAAAAAAAA, " << y; }
 };
 
 #endif

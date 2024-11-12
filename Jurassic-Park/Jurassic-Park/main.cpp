@@ -3,6 +3,6 @@
 
 int main()
 {
-	Animal test;
+	Animal test(10, 10);
 	test.test();
 }
