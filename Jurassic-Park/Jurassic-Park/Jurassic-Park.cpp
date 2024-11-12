@@ -21,5 +21,11 @@ public:
 
 int main()
 {
+    bool sim = true;
+    while (sim = true) {
+        std::cout "wip";
+
+
+    }
 
 }
