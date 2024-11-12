@@ -1,3 +1,4 @@
+#include "classe_herbivore_carnivore_base"
 #include <iostream>
 
 class Personnage {
@@ -9,13 +10,24 @@ private:
     bool estChasse;
     bool chasse;
 public:
-    dyno(string regime, int hp, int faim :regime(regime), faim(faim), hp(hp) {}
+    Personnage(string regime, int hp, int faim :regime(regime), faim(faim), hp(hp) {}
 
     void baissefaim() {
         while (0 < faim) {
             faim = faim - 5;
         }
     }
+
+    void escape()
+    {
+        while (estChasse)
+        {
+
+        }
+       
+    }
+
+   
 };
 
 
