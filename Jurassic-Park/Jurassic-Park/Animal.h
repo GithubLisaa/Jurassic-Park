@@ -9,14 +9,15 @@ float gennbint(int nb1, int nb2) {
 
 class Animal {
 private:
-    int x;
-    int y;
 
     int grangou;
     int lavi;
     bool lachas;
 
 public:
+    int x;
+    int y;
+
     Animal(int hp, int faim) : grangou(faim), lavi(hp), x(gennbint(0, 20)), y(gennbint(0, 20)) {}
 
     void test() { std::cout << grangou << ", " << lavi; }

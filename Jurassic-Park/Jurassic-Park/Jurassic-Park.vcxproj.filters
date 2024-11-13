@@ -23,5 +23,8 @@
     <ClInclude Include="Animal.h">
       <Filter>Fichiers sources</Filter>
     </ClInclude>
+    <ClInclude Include="Jeu.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
