@@ -1,7 +1,4 @@
-#ifndef DIPLODOCUS_H
-#define DIPLODOCUS_H
-
-#include "Animal.h"
+#include "Animal.cpp"
 #include <vector>
 
 class Diplodocus : public Animal {
@@ -11,7 +8,7 @@ public:
 	void estNourri(std::vector<Animal*>& animaux);
 };
 
-Diplodocus::Diplodocus() : Animal("Diplodocus", 20, 80, 3, 1, 100) {}
+Diplodocus::Diplodocus() : Animal(20, 80, 3, 1, 100) {}
 
 void Diplodocus::attaquer(Animal& autre) {
 }
@@ -21,5 +18,3 @@ void Diplodocus::estNourri(std::vector<Animal*>&) {
 	lavi += 15;
 	if (lavi > 80) lavi = 80;
 }
-
-#endif // !DIPLODOCUS_H

@@ -1,6 +1,7 @@
 #ifndef DENVER_H
 #define DENVER_H
 #include "Animal.h"
+#include "outil.cpp"
 #include <iostream>
 #include <random>
 
