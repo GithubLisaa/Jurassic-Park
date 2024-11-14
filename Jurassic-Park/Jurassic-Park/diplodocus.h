@@ -11,15 +11,15 @@ public:
 	void estNourri(std::vector<Animal*>& animaux);
 };
 
-Diplodocus::Diplodocus() : Animal("Diplodocus", 20, 100, 80, 40) {}
+Diplodocus::Diplodocus() : Animal("Diplodocus", 20, 80, 3, 1, 100) {}
 
 void Diplodocus::attaquer(Animal& autre) {
 }
 
 void Diplodocus::estNourri(std::vector<Animal*>&) {
 	std::cout << "Le diplodocus est nourri\n";
-	hp += 15;
-	if (hp > 80) hp = 80;
+	lavi += 15;
+	if (lavi > 80) lavi = 80;
 }
 
 #endif // !DIPLODOCUS_H
