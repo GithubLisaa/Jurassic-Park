@@ -6,6 +6,7 @@ int main()
 {
 	std::cout << "Entrer la taille du tableau:\n> ";
 	std::cin >> tablo_gwosè;
+	std::cout << "ZUB";
 
 	Animal test(10, 10);
 }
