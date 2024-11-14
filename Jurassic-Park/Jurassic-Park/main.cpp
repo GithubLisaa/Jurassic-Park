@@ -6,5 +6,6 @@ int main()
 {
 	/*std::cout << "Entrer la taille du tableau:\n> ";
 	std::cin >> tablo_gwosè;*/
-	Animal test("Groszizi", 100, 50);
+	Animal test("nomtest", 10, 100, 50);
+	test.Affichage();
 }

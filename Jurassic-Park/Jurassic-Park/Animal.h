@@ -8,19 +8,20 @@ float gennbint(int nb1, int nb2) {
 }
 
 class Animal {
-private:
+protected:
     std::string nom;
     int grangou;
     int lavi;
+    int atak;
     bool lachas;
 
 public:
     int x;
     int y;
 
-    Animal(std::string name, int hp, int faim) : nom(name), grangou(faim), lavi(hp), x(gennbint(0, 20)), y(gennbint(0, 20)) {}
+    Animal(std::string name, int degats, int hp, int faim) : nom(name), grangou(faim), lavi(hp), atak(degats), x(gennbint(0, 20)), y(gennbint(0, 20)) {}
 
-    void Affichage() { std::cout << nom << ", faim: " << grangou << ", vie: " << lavi << ", x: " << x << " y: " << y; }
+    void Affichage() { std::cout << nom << ", vie: " << lavi << ", degats: " << atak << ", faim: " << grangou << ", x: " << x << " y: " << y; }
 };
 
 #endif
