@@ -131,8 +131,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
+    <ClInclude Include="Denver.h" />
     <ClInclude Include="Jeu.h" />
     <ClInclude Include="trex.h" />
+    <ClInclude Include="triceratops.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

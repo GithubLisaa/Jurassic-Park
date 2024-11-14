@@ -16,6 +16,7 @@ protected:
     int vites;
     int zon_deteksyon;
     bool lachas;
+    bool renmen;
     bool isdead;
 
 public:
