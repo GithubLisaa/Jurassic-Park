@@ -11,7 +11,7 @@ public:
 	void estNourri(std::vector<Animal*>& animaux);
 };
 
-Diplodocus::Diplodocus() : Animal("Diplodocus", 100, 80, 40) {}
+Diplodocus::Diplodocus() : Animal("Diplodocus", 20, 100, 80, 40) {}
 
 void Diplodocus::attaquer(Animal& autre) {
 }
