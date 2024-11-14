@@ -1,7 +1,4 @@
-#ifndef VELOCIRAPTOR_H
-#define VELOCIRAPTOR_H
-
-#include "Animal.h"
+#include "Animal.cpp"
 #include <vector>
 
 class Velociraptore : public Animal {
@@ -21,5 +18,3 @@ void Velociraptore::estNourri(std::vector<Animal*>&) {
 	lavi += 15;
 	if (lavi > 80) lavi = 80;
 }
-
-#endif // !DIPLODOCUS_H
