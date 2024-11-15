@@ -20,17 +20,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animal.h" />
-    <ClInclude Include="Herbivore.h" />
     <ClInclude Include="Jeu.h" />
-    <ClInclude Include="Tyrannosaurus.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Animal.cpp" />
-    <ClCompile Include="Herbivore.cpp" />
     <ClCompile Include="Jeu.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="outil.cpp" />
-    <ClCompile Include="Tyrannosaurus.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
