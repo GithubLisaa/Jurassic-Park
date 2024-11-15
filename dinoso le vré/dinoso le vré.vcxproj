@@ -18,21 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Animal.h" />
-    <ClInclude Include="Jeu.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Animal.cpp" />
-    <ClCompile Include="Jeu.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="outil.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{cb9338fa-523b-4078-811f-30933259c928}</ProjectGuid>
-    <RootNamespace>JurassicParkdirectorscut</RootNamespace>
+    <ProjectGuid>{5b5a4d5d-48ad-4f99-9833-40725a3b36ac}</ProjectGuid>
+    <RootNamespace>dinosolevré</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -136,6 +126,23 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="animal.cpp" />
+    <ClCompile Include="diplodocus.cpp" />
+    <ClCompile Include="jeu.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="spinosaure.cpp" />
+    <ClCompile Include="trex.cpp" />
+    <ClCompile Include="velociraptor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="animal.h" />
+    <ClInclude Include="diplodocus.h" />
+    <ClInclude Include="jeu.h" />
+    <ClInclude Include="spinosaure.h" />
+    <ClInclude Include="trex.h" />
+    <ClInclude Include="velociraptor.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
