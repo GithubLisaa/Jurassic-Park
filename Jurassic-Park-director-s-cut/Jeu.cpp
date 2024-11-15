@@ -78,3 +78,10 @@ void Jeu::runSimulation() {
         simulateTurn();
     }
 }
+
+//void Jeu::runSimulation(int totalTurns) {
+//    for (int i = 0; i < totalTurns; ++i) {
+//        std::cout << "\nTour " << i + 1 << " :\n";
+//        simulateTurn();
+//    }
+//}

@@ -6,7 +6,7 @@
 
 class Animal {
 public:
-    Animal(int age, int weight, int height, int speed, const std::string& name, bool isCarnivore); // Constructeur
+    Animal(int age, int weight, int height, int speed, const std::string& name, bool isCarnivore);
 
     void move();
     void eat();
