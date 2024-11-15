@@ -27,7 +27,7 @@ private:
     int m_speed;
     std::string m_name;
     bool m_isDead;
-    bool m_isCarnivore; // Pour savoir si l'animal est carnivore
+    bool m_isCarnivore;
 };
 
-#endif // ANIMAL_H
+#endif

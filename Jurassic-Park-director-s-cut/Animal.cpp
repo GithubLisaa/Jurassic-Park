@@ -34,27 +34,24 @@ void Animal::setIsDead(bool dead) {
 }
 
 bool Animal::isHungry() const {
-    return m_isCarnivore; // On suppose que les carnivores ont plus faim
+    return m_isCarnivore;
 }
 
 void Animal::hunt(std::vector<Animal*>& animals) {
-    // Comportement de chasse
     for (auto prey : animals) {
         if (prey != this && !prey->getIsDead() && m_isCarnivore) {
             prey->setIsDead(true);
             std::cout << m_name << " hunted and killed " << prey->getName() << std::endl;
-            return; // L'animal chasse et tue un seul autre animal
+            return;
         }
     }
 }
 
 void Animal::flee(Animal* predator) {
-    // Comportement de fuite
     std::cout << m_name << " is fleeing from " << predator->getName() << std::endl;
 }
 
 void Animal::reproduce(Animal* mate) {
-    // Logique de reproduction simple
     if (!getIsDead() && !mate->getIsDead()) {
         std::cout << m_name << " is reproducing with " << mate->getName() << std::endl;
     }

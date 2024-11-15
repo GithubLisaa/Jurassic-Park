@@ -6,7 +6,7 @@
 
 class Jeu {
 public:
-    Jeu(); // Constructeur
+    Jeu();
     void addAnimal(Animal* animal);
     void showAnimals();
     void simulateTurn();
@@ -16,4 +16,4 @@ private:
     std::vector<Animal*> m_animals;
 };
 
-#endif // JEU_H
+#endif

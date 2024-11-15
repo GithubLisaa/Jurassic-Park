@@ -5,8 +5,8 @@
 
 class Herbivore : public Animal {
 public:
-    Herbivore(const std::string& name); // Constructeur
+    Herbivore(const std::string& name);
     void eatPlants();
 };
 
-#endif // HERBIVORE_H
+#endif

@@ -8,7 +8,7 @@ void Jeu::addAnimal(Animal* animal) {
 }
 
 void Jeu::showAnimals() {
-    std::cout << "\nÉtat des animaux :\n";
+    std::cout << "\nEtat des animaux :\n";
     for (auto animal : m_animals) {
         if (animal->getIsDead()) {
             std::cout << animal->getName() << " est mort." << std::endl;
@@ -20,44 +20,40 @@ void Jeu::showAnimals() {
 }
 
 void Jeu::simulateTurn() {
-    std::cout << "\n--- Début du tour ---\n";
+    std::cout << "\n--- Debut du tour ---\n";
 
     for (auto animal : m_animals) {
         if (animal->getIsDead()) {
-            continue; // Si l'animal est mort, il ne fait rien
+            continue;
         }
 
-        animal->move(); // L'animal se déplace
-        animal->eat(); // Il mange si nécessaire
+        animal->move();
+        animal->eat();
 
         if (animal->isHungry()) {
-            // Recherche de nourriture : les carnivores chassent, les herbivores mangent des plantes
             if (animal->getIsDead()) {
-                continue; // Si l'animal est mort après avoir eu faim
+                continue;
             }
         }
 
-        // Comportement de chasse ou de fuite
         for (auto potentialPrey : m_animals) {
             if (animal != potentialPrey && !animal->getIsDead()) {
                 if (animal->isHungry()) {
-                    animal->hunt(m_animals); // Si c'est un carnivore, il chasse
+                    animal->hunt(m_animals);
                 }
                 else {
-                    animal->flee(potentialPrey); // Si l'animal est herbivore, il fuit
+                    animal->flee(potentialPrey);
                 }
             }
         }
 
-        // Logique de reproduction
         for (auto mate : m_animals) {
             if (animal != mate && !animal->getIsDead()) {
-                animal->reproduce(mate); // Reproduction simple entre deux animaux
+                animal->reproduce(mate);
             }
         }
     }
 
-    // Afficher l'état des animaux après ce tour
     showAnimals();
 }
 
