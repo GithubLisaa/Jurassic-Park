@@ -5,7 +5,7 @@
 
 class Tyrannosaurus : public Herbivore {
 public:
-    Tyrannosaurus(const std::string& name); // Constructeur
+    Tyrannosaurus(const std::string& name);
 };
 
-#endif // TYRANNOSAURUS_H
+#endif
