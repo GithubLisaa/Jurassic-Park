@@ -1,4 +1,5 @@
 #include "Animal.h"
+#include "outil.cpp"
 #include <iostream>
 
 Animal::Animal(int age, int weight, int height, int speed, const std::string& name, bool isCarnivore)
@@ -54,5 +55,17 @@ void Animal::flee(Animal* predator) {
 void Animal::reproduce(Animal* mate) {
     if (!getIsDead() && !mate->getIsDead()) {
         std::cout << m_name << " is reproducing with " << mate->getName() << std::endl;
+        switch (gennbint(1,1))
+        {
+        case 1: {
+            Animal * carnivore = new Animal(3, 500, 3, 40, "Carnivorenew", true);
+            break;
+        }
+        case 2: {
+            Animal * herbivore = new Animal(5, 300, 2, 20, "Herbivorenew", false);
+            break;
+        }  
+        }
     }
 }
+
