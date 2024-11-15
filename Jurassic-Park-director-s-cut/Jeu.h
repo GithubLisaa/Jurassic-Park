@@ -10,7 +10,7 @@ public:
     void addAnimal(Animal* animal);
     void showAnimals();
     void simulateTurn();
-    void runSimulation(int totalTurns);
+    void runSimulation();
 
 private:
     std::vector<Animal*> m_animals;

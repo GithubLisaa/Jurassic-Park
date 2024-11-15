@@ -13,7 +13,7 @@ int main() {
     jeu.addAnimal(herbivore);
     jeu.addAnimal(carnivore);
 
-    jeu.runSimulation(10);
+    jeu.runSimulation();
 
     delete tRex;
     delete herbivore;
