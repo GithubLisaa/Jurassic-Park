@@ -1,5 +1,7 @@
 #include "Jeu.h"
 #include <iostream>
+#include <conio.h>
+#include <Windows.h>
 
 Jeu::Jeu() {}
 
@@ -59,6 +61,7 @@ void Jeu::simulateTurn() {
 
 void Jeu::runSimulation() {
     int turnCount = 1;
+    bool isPaused = false;
 
     while (true) {
         bool hasLivingAnimal = false;
@@ -74,10 +77,42 @@ void Jeu::runSimulation() {
             break;
         }
 
-        std::cout << "\nTour " << turnCount++ << " :\n";
-        simulateTurn();
+        if (_kbhit()) {
+            char ch = _getch();
+            if (ch == '\r') {
+                isPaused = !isPaused;
+            }
+        }
+
+        if (!isPaused) {
+            std::cout << "\nTour " << turnCount++ << " :\n";
+            simulateTurn();
+        }
+        Sleep(500);
     }
 }
+
+//void Jeu::runSimulation() {
+//    int turnCount = 1;
+//
+//    while (true) {
+//        bool hasLivingAnimal = false;
+//        for (auto animal : m_animals) {
+//            if (!animal->getIsDead()) {
+//                hasLivingAnimal = true;
+//                break;
+//            }
+//        }
+//
+//        if (!hasLivingAnimal) {
+//            std::cout << "\nTous les animaux sont morts. Fin de la simulation." << std::endl;
+//            break;
+//        }
+//
+//        std::cout << "\nTour " << turnCount++ << " :\n";
+//        simulateTurn();
+//    }
+//}
 
 //void Jeu::runSimulation(int totalTurns) {
 //    for (int i = 0; i < totalTurns; ++i) {
